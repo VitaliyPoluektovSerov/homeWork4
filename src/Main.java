@@ -23,25 +23,27 @@ public class Main {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");
         }
 
-        age = 25;
-        if (age >= 2 && age <= 6) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
-        } else {
-            if (age >= 7 && age <= 17) {
-                System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
-            } else {
-                if (age >= 18 && age <= 24) {
-                    System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
-                } else {
-                    if (age > 24) {
-                        System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
-                    }
 
-                }
-
-            }
-
+        int ageFrom2To6 = 2;
+        if (ageFrom2To6 >= 2 && ageFrom2To6 < 6) {
+            System.out.println("Если возраст человека равен " + ageFrom2To6 + ", то ему нужно ходить  в детский сад");
         }
+
+        int ageFrom7To18 = 7;
+        if (ageFrom7To18 >= 7 && ageFrom7To18 < 18) {
+            System.out.println("Если возраст человека равен " + ageFrom7To18 + ", то ему нужно ходить  в школу");
+        }
+
+        int ageFrom18To24 = 18;
+        if (ageFrom18To24 >= 18 && ageFrom18To24 < 24) {
+            System.out.println("Если возраст человека равен " + ageFrom18To24 + ", то ему нужно ходить в университет");
+        }
+
+        int ageFromMoreThan24 = 25;
+        if (ageFromMoreThan24 > 24) {
+            System.out.println("Если возраст человека равен " + ageFromMoreThan24 + ", то ему нужно ходить на работу");
+        }
+
 
         age = 15;
         if (age < 5) {
