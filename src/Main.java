@@ -16,25 +16,31 @@ public class Main {
             System.out.println("Сегодня тепло, можно идти без шапки");
         }
 
-        int  speed = 70;
+        int speed = 70;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
         } else {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");
         }
 
-        age = 6;
-        if (age >=2 && age <=6) {
+        age = 25;
+        if (age >= 2 && age <= 6) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
-        }
-        if (age >=7 && age <=17) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
-        }
-        if (age >=18 && age <=24) {
-            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
-        }
-        if (age > 24) {
-            System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
+        } else {
+            if (age >= 7 && age <= 17) {
+                System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
+            } else {
+                if (age >= 18 && age <= 24) {
+                    System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
+                } else {
+                    if (age > 24) {
+                        System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
+                    }
+
+                }
+
+            }
+
         }
 
         age = 15;
