@@ -62,7 +62,7 @@ public class Main {
                 System.out.println("есть стоячее место");
             }
         }
-
+        // задание 7
         int one = 100;
         int two = 500;
         int three = 110;
