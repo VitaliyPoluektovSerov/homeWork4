@@ -24,26 +24,19 @@ public class Main {
         }
 
 
-        int ageFrom2To6 = 2;
-        if (ageFrom2To6 >= 2 && ageFrom2To6 < 6) {
-            System.out.println("Если возраст человека равен " + ageFrom2To6 + ", то ему нужно ходить  в детский сад");
+        age = 6;
+        if (age >= 2 && age <= 6) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
         }
-
-        int ageFrom7To18 = 7;
-        if (ageFrom7To18 >= 7 && ageFrom7To18 < 18) {
-            System.out.println("Если возраст человека равен " + ageFrom7To18 + ", то ему нужно ходить  в школу");
+        if (age >= 7 && age <= 17) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в школу");
         }
-
-        int ageFrom18To24 = 18;
-        if (ageFrom18To24 >= 18 && ageFrom18To24 < 24) {
-            System.out.println("Если возраст человека равен " + ageFrom18To24 + ", то ему нужно ходить в университет");
+        if (age >= 18 && age <= 24) {
+            System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
         }
-
-        int ageFromMoreThan24 = 25;
-        if (ageFromMoreThan24 > 24) {
-            System.out.println("Если возраст человека равен " + ageFromMoreThan24 + ", то ему нужно ходить на работу");
+        if (age > 24) {
+            System.out.println("Если возраст человека равен " + age + ", то ему пора ходить на работу");
         }
-
 
         age = 15;
         if (age < 5) {
@@ -71,16 +64,16 @@ public class Main {
         }
 
         int one = 100;
-        int two = 50;
-        int three = 11;
-        if (one > two && two > three) {
+        int two = 500;
+        int three = 110;
+        if (one > two && one > three) {
             System.out.println("больше первое число = " + one);
-        } else {
-            if (two > three) {
-                System.out.println("больше второе число = " + two);
-            } else {
-                System.out.println("больше третье число = " + three);
-            }
+        }
+        if (two > one && two > three) {
+            System.out.println("больше второе число = " + two);
+        }
+        if (three > one && three > two) {
+            System.out.println("больше третье число = " + three);
         }
 
     }
